@@ -1,14 +1,20 @@
 <template>
   <div class="vue_charts">
     <div class="box">
-      <div id="main" style="width:90%;height:88%;"></div>
+      <div id="main"></div>
+      <div class="application">
+        <p>应用场景: 投资规划类</p>
+        <p>展示效果: 如上图</p>
+        <p>功能描述: 展示同一时间不同维度得各类信息得统计情况</p>
+        <p>定制开发: 多维度开发</p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'rightbox',
+  name: 'barbasics',
   data () {
     return {
       isCollapse: false
@@ -241,5 +247,16 @@ export default {
 }
 #main {
   margin: 3% auto;
+  width:90%;
+  height:60%;
+}
+.application{
+  height:28%;
+  padding:0 5%;
+}
+.application>p{
+  font-size:14px;
+  color:#a1a5a4;
+  font-family: "微软雅黑";
 }
 </style>

@@ -1,7 +1,13 @@
 <template>
   <div class="vue_charts">
     <div class="box">
-      <div id="main" style="width:90%;height:88%;"></div>
+      <div id="main"></div>
+      <div class="application">
+        <p>应用场景:</p>
+        <p>展示效果:</p>
+        <p>功能描述:</p>
+        <p>开发简单描述:</p>
+      </div>
     </div>
   </div>
 </template>
@@ -55,5 +61,16 @@ export default {
 }
 #main {
   margin: 3% auto;
+  width:90%;
+  height:60%;
+}
+.application{
+  height:28%;
+  padding:0 5%;
+}
+.application>p{
+  font-size:14px;
+  color:#a1a5a4;
+  font-family: "微软雅黑";
 }
 </style>

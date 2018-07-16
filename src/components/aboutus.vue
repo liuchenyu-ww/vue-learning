@@ -30,7 +30,7 @@
       <p class="aboutustext" style="color:#666;margin-top:30px;"><a style="color:#2295f2;" href="https://juejin.im/welcome/frontend">掘金社区 →</a></p>
       <p class="aboutustext" style="color:#666;margin-top:30px;"><a style="color:#2295f2;" href="https://www.cnblogs.com/">博客园 IT技术社区 →</a></p>
       <p class="aboutustext" style="color:#666;margin-top:30px;"><a style="color:#2295f2;" href="http://www.iconfont.cn/">阿里巴巴矢量图库 →</a></p>
-      <p class="aboutustext" style="color:#666;margin-top:30px;"><a style="color:#2295f2;" href="https://github.com/AiLuoLiuCenYu/vue-learning">本应用开发者-刘建平 Github地址 →</a></p>
+      <p class="aboutustext" style="color:#666;margin-top:30px;"><a style="color:#2295f2;" href="https://github.com/AiLuoLiuCenYu/vue-learning">本应用 Github地址 →</a></p>
     </div>
   </div>
 </template>

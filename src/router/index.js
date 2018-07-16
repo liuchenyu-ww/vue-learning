@@ -1,19 +1,19 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import vuecharts from '@/page/vuecharts'
-import rightbox from '@/components/rightbox'
-import bartwo from '@/components/bartwo'
-import barthree from '@/components/barthree'
-import barfour from '@/components/barfour'
-import barfive from '@/components/barfive'
-import lineone from '@/components/lineone'
-import linetwo from '@/components/linetwo'
-import linethree from '@/components/linethree'
-import linefour from '@/components/linefour'
-import linefive from '@/components/linefive'
-import mapone from '@/components/mapone'
-import maptwo from '@/components/maptwo'
-import mapthree from '@/components/mapthree'
+import barbasics from '@/components/barbasics'
+import barexample from '@/components/barexample'
+import barstyle from '@/components/barstyle'
+import baraccumulation from '@/components/baraccumulation'
+import baraccumulationbasics from '@/components/baraccumulationbasics'
+import linebasics from '@/components/linebasics'
+import lineexample from '@/components/lineexample'
+import linestyle from '@/components/linestyle'
+import lineaccumulation from '@/components/lineaccumulation'
+import lineaccumulationbasics from '@/components/lineaccumulationbasics'
+import mapextend from '@/components/mapextend'
+import maptransfer from '@/components/maptransfer'
+import mappunctuation from '@/components/mappunctuation'
 import aboutus from '@/components/aboutus'
 import startecharts from '@/components/startecharts'
 Vue.use(Router)
@@ -31,69 +31,69 @@ export default new Router({
           component: startecharts
         },
         {
-          path: '/barone',
-          name: 'rightbox',
-          component: rightbox
+          path: '/barbasics',
+          name: 'barbasics',
+          component: barbasics
         },
         {
-          path: '/bartwo',
-          name: 'bartwo',
-          component: bartwo
+          path: '/barexample',
+          name: 'barexample',
+          component: barexample
         },
         {
-          path: '/barthree',
-          name: 'barthree',
-          component: barthree
+          path: '/barstyle',
+          name: 'barstyle',
+          component: barstyle
         },
         {
-          path: '/barfour',
-          name: 'barfour',
-          component: barfour
+          path: '/baraccumulation',
+          name: 'baraccumulation',
+          component: baraccumulation
         },
         {
-          path: '/barfive',
-          name: 'barfive',
-          component: barfive
+          path: '/baraccumulationbasics',
+          name: 'baraccumulationbasics',
+          component: baraccumulationbasics
         },
         {
-          path: '/lineone',
-          name: 'lineone',
-          component: lineone
+          path: '/linebasics',
+          name: 'linebasics',
+          component: linebasics
         },
         {
-          path: '/linetwo',
-          name: 'linetwo',
-          component: linetwo
+          path: '/lineexample',
+          name: 'lineexample',
+          component: lineexample
         },
         {
-          path: '/linethree',
-          name: 'linethree',
-          component: linethree
+          path: '/linestyle',
+          name: 'linestyle',
+          component: linestyle
         },
         {
-          path: '/linefour',
-          name: 'linefour',
-          component: linefour
+          path: '/lineaccumulation',
+          name: 'lineaccumulation',
+          component: lineaccumulation
         },
         {
-          path: '/linefive',
-          name: 'linefive',
-          component: linefive
+          path: '/lineaccumulationbasics',
+          name: 'lineaccumulationbasics',
+          component: lineaccumulationbasics
         },
         {
-          path: '/mapone',
-          name: 'mapone',
-          component: mapone
+          path: '/mapextend',
+          name: 'mapextend',
+          component: mapextend
         },
         {
-          path: '/maptwo',
-          name: 'maptwo',
-          component: maptwo
+          path: '/maptransfer',
+          name: 'maptransfer',
+          component: maptransfer
         },
         {
-          path: '/mapthree',
-          name: 'mapthree',
-          component: mapthree
+          path: '/mappunctuation',
+          name: 'mappunctuation',
+          component: mappunctuation
         },
         {
           path: '/aboutus',

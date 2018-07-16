@@ -17,7 +17,7 @@ body{
 }
 a{
   text-decoration:none;
-  out-line:none;
+  outline:none;
   color:#fff;
 }
 a:focus{

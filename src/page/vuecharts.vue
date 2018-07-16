@@ -18,22 +18,22 @@
               <span slot="title">柱状图</span>
             </template>
             <el-menu-item-group>
-              <router-link to="/barone">
+              <router-link to="/barbasics">
                 <el-menu-item index="1-1">柱状图基础扩展</el-menu-item>
               </router-link>
-              <router-link to="/bartwo">
+              <router-link to="/barexample">
                 <el-menu-item index="1-2">柱状图实例扩展</el-menu-item>
               </router-link>
-              <router-link to="/barthree">
+              <router-link to="/barstyle">
                 <el-menu-item index="1-3">柱状图样式扩展</el-menu-item>
               </router-link>
             </el-menu-item-group>
             <el-submenu index="1-4">
               <span slot="title">堆积柱状图</span>
-              <router-link to="/barfour">
+              <router-link to="/baraccumulation">
                 <el-menu-item index="1-4-1">样式扩展</el-menu-item>
               </router-link>
-              <router-link to="/barfive">
+              <router-link to="/baraccumulationbasics">
                 <el-menu-item index="1-4-2">基础扩展</el-menu-item>
               </router-link>
             </el-submenu>
@@ -44,22 +44,22 @@
               <span slot="title">折线图</span>
             </template>
             <el-menu-item-group>
-              <router-link to="/lineone">
+              <router-link to="/linebasics">
                 <el-menu-item index="2-1">折线图基础扩展</el-menu-item>
               </router-link>
-              <router-link to="/linetwo">
+              <router-link to="/lineexample">
                 <el-menu-item index="2-2">折线图实例扩展</el-menu-item>
               </router-link>
-              <router-link to="/linethree">
+              <router-link to="/linestyle">
                 <el-menu-item index="2-3">折线图样式扩展</el-menu-item>
               </router-link>
             </el-menu-item-group>
             <el-submenu index="2-4">
               <span slot="title">面积折状图</span>
-              <router-link to="/linefour">
+              <router-link to="/lineaccumulation">
                 <el-menu-item index="2-4-1">基础扩展</el-menu-item>
               </router-link>
-              <router-link to="/linefive">
+              <router-link to="/lineaccumulationbasics">
                 <el-menu-item index="2-4-2">样式扩展</el-menu-item>
               </router-link>
             </el-submenu>
@@ -70,13 +70,13 @@
               <span slot="title">地图</span>
             </template>
             <el-menu-item-group>
-              <router-link to="/mapone">
+              <router-link to="/mapextend">
                 <el-menu-item index="3-1">地图扩展</el-menu-item>
               </router-link>
-              <router-link to="/maptwo">
+              <router-link to="/maptransfer">
                 <el-menu-item index="3-2">迁移图</el-menu-item>
               </router-link>
-              <router-link to="/mapthree">
+              <router-link to="/mappunctuation">
               <el-menu-item index="3-3">地图标点</el-menu-item>
               </router-link>
             </el-menu-item-group>
