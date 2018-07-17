@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import chinaJs from '../../static/china.js'
+require('../../static/china.js')
 export default {
   name: 'rightbox',
   data () {
@@ -450,7 +450,6 @@ export default {
       }, 1000)
 
       myChart.on('mouseover', function (params) {
-        console.log(params)
         clearInterval(timeTicket)
         myChart.dispatchAction({
           type: 'downplay',

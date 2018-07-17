@@ -13,6 +13,7 @@
 </template>
 
 <script>
+require('../../static/china.js')
 export default {
   name: 'rightbox',
   data () {
@@ -236,7 +237,6 @@ export default {
         var res1 = []
         for (var i = 0; i < data.length; i++) {
           dataItem1 = data[i]
-          console.log(dataItem1)
           var fromCoord1 = geoCoordMap1[dataItem1[0].name]
           var toCoord1 = geoCoordMap1[dataItem1[1].name]
           if (fromCoord1 && toCoord1) {

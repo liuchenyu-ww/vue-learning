@@ -79,11 +79,14 @@
               <router-link to="/mappunctuation">
               <el-menu-item index="3-3">地图标点</el-menu-item>
               </router-link> -->
-              <router-link to="/mapone">
+              <router-link to="/mapmove">
                 <el-menu-item index="3-1">迁徙地图</el-menu-item>
               </router-link>
-              <router-link to="/maptwo">
+              <router-link to="/maptrend">
                 <el-menu-item index="3-2">迁徙趋势地图</el-menu-item>
+              </router-link>
+              <router-link to="/mapdrill">
+                <el-menu-item index="3-3">地图下钻</el-menu-item>
               </router-link>
             </el-menu-item-group>
             <!-- <el-submenu index="3-4">

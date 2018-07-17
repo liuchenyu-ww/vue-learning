@@ -16,8 +16,9 @@ import maptransfer from '@/components/maptransfer'
 import mappunctuation from '@/components/mappunctuation'
 import aboutus from '@/components/aboutus'
 import startecharts from '@/components/startecharts'
-import mapone from '@/components/mapone'
-import maptwo from '@/components/maptwo'
+import mapmove from '@/components/mapmove'
+import maptrend from '@/components/maptrend'
+import mapdrill from '@/components/mapdrill'
 Vue.use(Router)
 
 export default new Router({
@@ -103,14 +104,19 @@ export default new Router({
           component: aboutus
         },
         {
-          path: '/mapone',
-          name: 'mapone',
-          component: mapone
+          path: '/mapmove',
+          name: 'mapmove',
+          component: mapmove
         },
         {
-          path: '/maptwo',
-          name: 'maptwo',
-          component: maptwo
+          path: '/maptrend',
+          name: 'maptrend',
+          component: maptrend
+        },
+        {
+          path: '/mapdrill',
+          name: 'mapdrill',
+          component: mapdrill
         }
       ]
     }
