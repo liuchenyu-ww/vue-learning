@@ -1,12 +1,13 @@
 <template>
   <div class="vue_charts">
     <div class="box">
+      <div class="titleleft">基础扩展</div>
       <div id="main"></div>
       <div class="application">
-        <p>应用场景:</p>
-        <p>展示效果:</p>
-        <p>功能描述:</p>
-        <p>开发简单描述:</p>
+        <p>应用场景:年/月/日度数目情况等</p>
+        <p>展示效果:如上图所示</p>
+        <p>功能描述:面积表示，方便用户展示引用/比较</p>
+        <p>开发简单描述:使用china.js展示柱状图，引入多个数据，使用echarts.js修正样式及功能</p>
       </div>
     </div>
   </div>
@@ -72,5 +73,11 @@ export default {
   font-size:14px;
   color:#a1a5a4;
   font-family: "微软雅黑";
+}
+.titleleft{
+  text-align:center;
+  margin-top:20px;
+  font-size:14px;
+  color:#4e4e4e;
 }
 </style>

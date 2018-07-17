@@ -1,12 +1,13 @@
 <template>
   <div class="vue_charts">
     <div class="box">
+      <div class="titleleft">迁徙地图</div>
       <div id="main" style=""></div>
       <div class="application">
-        <p>应用场景:</p>
-        <p>展示效果:</p>
-        <p>功能描述:</p>
-        <p>开发简单描述:</p>
+        <p>应用场景：统计分析我国每个地区的迁入及迁出的人口数量</p>
+        <p>展示效果：如上图</p>
+        <p>功能描述：将数据精确明了展示出来，方便用户使用</p>
+        <p>开发简单描述：使用china.js展示中国地图，使用echarts.js修正样式及功能</p>
       </div>
     </div>
   </div>
@@ -25,12 +26,6 @@ export default {
   methods: {
     drawLine () {
       let myChart = this.$echarts.init(document.getElementById('main'))
-      let nameTitle = '迁徙人数'
-      let subname = '模拟数据'
-      let nameColor = 'rgb(55, 75, 113)'
-      let nameFontFamily = '等线'
-      let subnameFontSize = 15
-      let nameFontSize = 18
       let mapName = 'china'
       let data = [
         { name: '北京', value: 177 },
@@ -222,20 +217,20 @@ export default {
         return res
       }
       var option = {
-        title: {
-          text: nameTitle,
-          subtext: subname,
-          x: 'center',
-          textStyle: {
-            color: nameColor,
-            fontFamily: nameFontFamily,
-            fontSize: nameFontSize
-          },
-          subtextStyle: {
-            fontSize: subnameFontSize,
-            fontFamily: nameFontFamily
-          }
-        },
+        // title: {
+        //   text: nameTitle,
+        //   subtext: subname,
+        //   x: 'center',
+        //   textStyle: {
+        //     color: nameColor,
+        //     fontFamily: nameFontFamily,
+        //     fontSize: nameFontSize
+        //   },
+        //   subtextStyle: {
+        //     fontSize: subnameFontSize,
+        //     fontFamily: nameFontFamily
+        //   }
+        // },
         tooltip: {
           trigger: 'item',
           formatter: function (params) {
@@ -518,5 +513,11 @@ export default {
   font-size:14px;
   color:#a1a5a4;
   font-family: "微软雅黑";
+}
+.titleleft{
+  text-align:center;
+  margin-top:20px;
+  font-size:14px;
+  color:#4e4e4e;
 }
 </style>

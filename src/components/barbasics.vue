@@ -1,6 +1,7 @@
 <template>
   <div class="vue_charts">
     <div class="box">
+      <div class="titleleft">柱状图基础扩展</div>
       <div id="main"></div>
       <div class="application">
         <p>应用场景: 投资规划类</p>
@@ -248,7 +249,7 @@ export default {
 #main {
   margin: 3% auto;
   width:90%;
-  height:60%;
+  height:53%;
 }
 .application{
   height:28%;
@@ -258,5 +259,11 @@ export default {
   font-size:14px;
   color:#a1a5a4;
   font-family: "微软雅黑";
+}
+.titleleft{
+  text-align:center;
+  margin-top:20px;
+  font-size:14px;
+  color:#4e4e4e;
 }
 </style>

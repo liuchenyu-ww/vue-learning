@@ -1,12 +1,13 @@
 <template>
   <div class="vue_charts">
     <div class="box">
+      <div class="titleleft">地图下钻</div>
       <div id="main" style=""></div>
       <div class="application">
-        <p>应用场景:</p>
-        <p>展示效果:</p>
-        <p>功能描述:</p>
-        <p>开发简单描述:</p>
+        <p>应用场景：点击每个省市可以将该地区放大，如果点击的是34个省、市、自治区，出现选中地区的二级地图，如果是直辖市或者特别行政区只有二级下钻，否则显示县级地图</p>
+        <p>展示效果：如上图</p>
+        <p>功能描述：将数据精确明了展示出来，方便用户使用</p>
+        <p>开发简单描述：使用china.js展示中国地图，引入各个省市的json数据，使用echarts.js修正样式及功能</p>
       </div>
     </div>
   </div>
@@ -471,24 +472,24 @@ export default {
 
       // 初始化绘制全国地图配置
       var option = {
-        title: {
-          text: '中国地图下钻至县级',
-          subtext: '三级下钻',
-          link: 'http://www.ldsun.com',
-          left: 'center',
-          textStyle: {
-            color: '#000',
-            fontSize: 16,
-            fontWeight: 'normal',
-            fontFamily: 'Microsoft YaHei'
-          },
-          subtextStyle: {
-            color: '#333',
-            fontSize: 13,
-            fontWeight: 'normal',
-            fontFamily: 'Microsoft YaHei'
-          }
-        },
+        // title: {
+        //   text: '中国地图下钻至县级',
+        //   subtext: '三级下钻',
+        //   link: 'http://www.ldsun.com',
+        //   left: 'center',
+        //   textStyle: {
+        //     color: '#000',
+        //     fontSize: 16,
+        //     fontWeight: 'normal',
+        //     fontFamily: 'Microsoft YaHei'
+        //   },
+        //   subtextStyle: {
+        //     color: '#333',
+        //     fontSize: 13,
+        //     fontWeight: 'normal',
+        //     fontFamily: 'Microsoft YaHei'
+        //   }
+        // },
         tooltip: {
           trigger: 'item',
           formatter: '{b}'
@@ -514,7 +515,6 @@ export default {
         animationDurationUpdate: 1000
       }
       function renderMap (map, data) {
-        option.title.subtext = map
         option.series = [
           {
             name: map,
@@ -575,7 +575,7 @@ export default {
 #main {
   margin: 3% auto;
   width: 90%;
-  height: 60%;
+  height: 53%;
 }
 .application {
   height: 28%;
@@ -585,5 +585,11 @@ export default {
   font-size: 14px;
   color: #a1a5a4;
   font-family: "微软雅黑";
+}
+.titleleft{
+  text-align:center;
+  margin-top:20px;
+  font-size:14px;
+  color:#4e4e4e;
 }
 </style>
