@@ -16,6 +16,8 @@ import maptransfer from '@/components/maptransfer'
 import mappunctuation from '@/components/mappunctuation'
 import aboutus from '@/components/aboutus'
 import startecharts from '@/components/startecharts'
+import mapone from '@/components/mapone'
+import maptwo from '@/components/maptwo'
 Vue.use(Router)
 
 export default new Router({
@@ -99,6 +101,16 @@ export default new Router({
           path: '/aboutus',
           name: 'aboutus',
           component: aboutus
+        },
+        {
+          path: '/mapone',
+          name: 'mapone',
+          component: mapone
+        },
+        {
+          path: '/maptwo',
+          name: 'maptwo',
+          component: maptwo
         }
       ]
     }
