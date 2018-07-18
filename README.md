@@ -36,6 +36,5 @@ npm test
 
 ```
 Vue2+ + Element + Echarts + Jquery + axios
-
 ```
 
