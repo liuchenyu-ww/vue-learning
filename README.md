@@ -1,4 +1,4 @@
-# yes
+# Charts-中兴华易应用平台
 
 > yes
 
