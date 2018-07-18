@@ -38,7 +38,7 @@ npm test
 ```
 ## 前台应用技术栈
 
-```
+>
 [Vue2+](https://cn.vuejs.org/v2/guide/) 
 
 [Element](http://element-cn.eleme.io/#/zh-CN)
@@ -48,7 +48,7 @@ npm test
 [Jquery](https://jquery.com/)
 
 [axios](https://www.axios.com/)
-```
+
 
 ## 关于应用
 
