@@ -4,12 +4,18 @@
 
 ## 项目运行
 
+### 安装依赖
+
 ``` bash
 # install dependencies
 npm install
 
+### 运行
+
 # serve with hot reload at localhost:8080
 npm run dev
+
+## 项目打包
 
 # build for production with minification
 npm run build
