@@ -1,8 +1,8 @@
 # Charts-中兴华易应用平台
 
-> yes
+> Charts-个人应用平台
 
-## Build Setup
+## 项目运行
 
 ``` bash
 # install dependencies
