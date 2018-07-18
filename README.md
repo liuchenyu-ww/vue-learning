@@ -39,7 +39,15 @@ npm test
 ## 前台应用技术栈
 
 ```
-Vue2+ + Element + Echarts + Jquery + axios
+[Vue2+](https://cn.vuejs.org/v2/guide/) 
+
+[Element](http://element-cn.eleme.io/#/zh-CN)
+
+[Echarts](http://echarts.baidu.com/)
+
+[Jquery](https://jquery.com/)
+
+[axios](https://www.axios.com/)
 ```
 
 ## 关于应用
